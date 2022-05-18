@@ -20,6 +20,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
+#include <stdio.h>
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -85,7 +87,8 @@ void control()
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+  fprintf(stderr, "Standard error message.\n");
+  fprintf(stdout, "Standard error message.\n");
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
